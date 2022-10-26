@@ -22,7 +22,7 @@ scanf("%d",&minutos);
 printf("Cuanto tiempo duro la llamda\n");
 scanf("%d",&duracion);
 if(dia=='L'||dia=='l'||dia=='M'||dia=='m'||dia=='X'||dia=='x'||dia=='J'||dia=='j'||dia=='V'||dia=='v'){
-if(hora>=6 && hora<=20){
+if(hora>=6 && hora<=18){
 costo=duracion*.30;
 
 printf("El costo de su llamada es de:%f\n",costo);
